@@ -1,7 +1,7 @@
 # Model Context Protocol for Veeam
 
 <p align="center">
-  <img src="veeam-backup-and-replication-mcp/assets/vbr-mcp-logo.png" alt="Veeam MCP Server Logo"/>
+  <img src="https://raw.githubusercontent.com/jorgedlcruz/modelcontextprotocol_veeam/refs/heads/main/veeam-backup-and-replication-mcp/assets/vbr-mcp-logo.png" alt="Veeam MCP Server Logo"/>
 
 <p align="center">
   <strong>Democratizing AI access to Veeam's powerful data protection ecosystem</strong>
