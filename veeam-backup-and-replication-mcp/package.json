@@ -1,0 +1,11 @@
+{
+  "name": "vbr-mcp-server",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.22.4"
+  }
+}
