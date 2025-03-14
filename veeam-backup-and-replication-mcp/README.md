@@ -32,8 +32,8 @@ The Veeam Backup & Replication MCP Server enables AI assistants to interact with
 
 ```bash
 # Clone the repository
-git clone https://github.com/jorgedlcruz/modelcontextprotocol_veeam/veeam-backup-and-replication-mcp.git
-cd vbr-mcp-server
+git clone https://github.com/jorgedlcruz/modelcontextprotocol_veeam.git
+cd modelcontextprotocol_veeam/veeam-backup-and-replication-mcp
 
 # Install dependencies
 npm install
@@ -51,6 +51,23 @@ node vbr-mcp-server.js
 ```
 
 Connect to the server using any MCP-compatible client or AI assistant. The server operates via stdin/stdout using the Model Context Protocol.
+
+### Claude Desktop Configuration
+
+If you are using Claude Desktop, one of the most powerful MCP Client anyways, you surely have already the Developer Mode enabled, and all, please add the next configuiration to your claude_desktop_config.json
+
+```bash
+{
+  "mcpServers": {
+    "Veeam API": {
+      "command": "node",
+      "args": ["C:/yourpath/vbr-mcp-server.js"]
+    }
+  }
+}
+```
+
+Claude Desktop will make sure to start the node server for you and expose the MCP Server as it should.
 
 ### Quick Start
 
