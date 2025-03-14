@@ -1,7 +1,7 @@
 # Veeam Backup & Replication MCP Server
 
 <p align="center">
-  <img src="assets/vbr-mcp-logo.png" alt="VBR MCP Server Logo" width="200" height="200" />
+  <img src="assets/vbr-mcp-logo.png" alt="Veeam MCP Server Logo"/>
 </p>
 
 <p align="center">
