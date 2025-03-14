@@ -34,10 +34,10 @@ This repository hosts a collection of MCP servers for different Veeam products:
 | Component | Status | Description |
 |-----------|--------|-------------|
 | [Veeam Backup & Replication](./veeam-backup-and-replication-mcp) | ✅ Available | Monitor and manage VBR servers, jobs, repositories, and proxies |
-| [Veeam ONE](./veeam-one-mcp) | 🚧 In Development | Access monitoring, reporting, and business view capabilities |
-| [Veeam Service Provider Console](./veeam-service-provider-console-mcp) | 🔮 Planned | Manage multi-tenant environments and service provider operations |
-| [Veeam Recovery Orchestrator](./veeam-availability-orchestrator-mcp) | 🔮 Planned | Orchestrate disaster recovery testing and execution |
-| [Kasten K10](./kasten-k10-mcp) | 🔮 Planned | Kubernetes-native backup and disaster recovery |
+| Veeam ONE | 🚧 In Development | Access monitoring, reporting, and business view capabilities |
+| Veeam Service Provider Console | 🔮 Planned | Manage multi-tenant environments and service provider operations |
+| Veeam Recovery Orchestrator | 🔮 Planned | Orchestrate disaster recovery testing and execution |
+| Kasten K10| 🔮 Planned | Kubernetes-native backup and disaster recovery |
 
 ## Getting Started
 
